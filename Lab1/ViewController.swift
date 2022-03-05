@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     @IBAction func didTap(_ sender: Any) {
         frontLabel.isHidden = true
+        
     }
     
 }
