@@ -16,6 +16,7 @@
 		0BAA8E2127CAA9E600995949 /* Lab1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAA8E2027CAA9E600995949 /* Lab1Tests.swift */; };
 		0BAA8E2B27CAA9E600995949 /* Lab1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAA8E2A27CAA9E600995949 /* Lab1UITests.swift */; };
 		0BAA8E2D27CAA9E600995949 /* Lab1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAA8E2C27CAA9E600995949 /* Lab1UITestsLaunchTests.swift */; };
+		0BDB9D3527DD3038007BBEE6 /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB9D3427DD3038007BBEE6 /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0BAA8E2627CAA9E600995949 /* Lab1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BAA8E2A27CAA9E600995949 /* Lab1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1UITests.swift; sourceTree = "<group>"; };
 		0BAA8E2C27CAA9E600995949 /* Lab1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0BDB9D3427DD3038007BBEE6 /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		0BAA8DFD27CAA9E100995949 = {
 			isa = PBXGroup;
 			children = (
+				0BDB9D3427DD3038007BBEE6 /* CreationViewController.swift */,
 				0BAA8E0827CAA9E200995949 /* Lab1 */,
 				0BAA8E1F27CAA9E600995949 /* Lab1Tests */,
 				0BAA8E2927CAA9E600995949 /* Lab1UITests */,
@@ -261,6 +264,7 @@
 				0BAA8E0E27CAA9E200995949 /* ViewController.swift in Sources */,
 				0BAA8E0A27CAA9E200995949 /* AppDelegate.swift in Sources */,
 				0BAA8E0C27CAA9E200995949 /* SceneDelegate.swift in Sources */,
+				0BDB9D3527DD3038007BBEE6 /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
