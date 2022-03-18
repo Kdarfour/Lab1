@@ -29,7 +29,7 @@ This is a flashcard game that asks the user a question and the user can tap on t
 
 ### App Walk-though
 
-<img src="Users/mrdarfour/Downloads/Lab1gif.gif" width=200><br>
+<img src="https://github.com/Kdarfour/Lab1/raw/main/Lab1gif.gif" width=200><br>
 
 
 ## Required
