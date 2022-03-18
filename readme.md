@@ -7,9 +7,8 @@
 This is a build up lab to the previous lab, In this lab, the user is able to open and cancel the creation screen and enter a new question and answer in the creation screen to then show it on the flashcard.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://github.com/Kdarfour/Lab1/raw/main/Lab2gif.gif" width=200><br>
 
 ## Required
 - [x] User can open the creation screen
