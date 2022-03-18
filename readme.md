@@ -11,6 +11,7 @@ This is a build up lab to the previous lab, In this lab, the user is able to ope
 <img src="https://github.com/Kdarfour/Lab1/raw/main/Lab2gif.gif" width=200><br>
 
 ## Required
+
 - [x] User can open the creation screen
 - [x] User can cancel out of the creation screen
 - [x] User can enter a new question and answer in the creation screen to then show it on the flashcard
