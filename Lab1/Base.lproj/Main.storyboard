@@ -44,7 +44,7 @@
                                 </connections>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9D0-n3-ugx">
-                                <rect key="frame" x="174" y="786" width="84" height="76"/>
+                                <rect key="frame" x="165" y="786" width="84" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="+">
@@ -52,6 +52,28 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="QqG-3m-L6N" kind="presentation" id="7xv-5d-rmA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3p-Gx-Ef1">
+                                <rect key="frame" x="20" y="788" width="112" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Prev">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HIB-DX-i4Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SbC-z6-b63">
+                                <rect key="frame" x="310" y="786" width="84" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="26"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTapOnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZXu-Wa-35y"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -62,6 +84,8 @@
                         <outlet property="backLabel" destination="ZUA-TV-is9" id="fmB-XM-ltI"/>
                         <outlet property="card" destination="SuJ-wa-WCX" id="rpc-dK-SAB"/>
                         <outlet property="frontLabel" destination="yvw-yB-Amr" id="ehk-zg-weO"/>
+                        <outlet property="nextButton" destination="SbC-z6-b63" id="bP4-vd-dat"/>
+                        <outlet property="prevButton" destination="v3p-Gx-Ef1" id="PG9-xL-RdO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
