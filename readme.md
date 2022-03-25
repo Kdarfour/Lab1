@@ -1,6 +1,26 @@
 ## FlashCard Game
 
 
+## Lab 3
+
+### App Description
+This is a build up to Lab2. In this lab, the user is able to browse through 
+multiple flashcards, save and retrieve already created flashcards from the disk.
+
+### App Walk-though
+
+<img src="https://github.com/Kdarfour/Lab1/blob/main/Lab3gif.gif" width=200><br>
+
+
+## Required
+- [x] User can browse through multiple flashcards
+- [x] User can re-open the app and see previously created flashcards
+- [x] Push code to GitHub
+## Optional
+- [ ] User can delete a flashcard
+- [ ] User can edit existing flashcard
+- [ ] User can store multiple choice questions
+
 ## Lab 2
 
 ### App Description

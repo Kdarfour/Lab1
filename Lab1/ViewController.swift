@@ -36,7 +36,14 @@ class ViewController: UIViewController {
         card.layer.shadowRadius = 15.0
         card.layer.shadowOpacity = 0.2
         
+        readSavedFlashcards()
+        
+        if flashcards.count == 0{
         updateFLashcards(question: "Who was the first man to land on the Moon?", answer: "Neil Armstrong")
+        }else {
+            updateLabels()
+            updateNextPrevButtons()
+        }
 
     }
     
@@ -120,6 +127,16 @@ class ViewController: UIViewController {
         UserDefaults.standard.set(dictionaryArray, forKey: "flashcards")
         
         print("Flashcards saved to UserDefaults")
+    }
+    
+    func readSavedFlashcards(){
+        
+        if let dictionaryArray = UserDefaults.standard.array(forKey: "flashcards") as? [[String: String]]{
+            let savedCards = dictionaryArray.map{ dictionary -> Flashcard in return Flashcard(question: dictionary["question"]!, answer: dictionary["answer"]!)
+            }
+            
+            flashcards.append(contentsOf: savedCards)
+        }
     }
     
     @IBOutlet weak var card: UIView!
